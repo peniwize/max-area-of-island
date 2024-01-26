@@ -128,7 +128,7 @@ class Solution1_BFS:
     __NEIGHBORS: List[List[int]] = [[1, 0], [0, 1], [-1, 0], [0, -1]]
 
     #
-    # Depth first search for an island, and its corresponding area, 
+    # Breadth first search for an island, and its corresponding area, 
     # given starting coordinates.
     #
     # Time = O(n + 4*n) => O(n)
@@ -169,7 +169,7 @@ class Solution1_BFS:
 
 class Solution2_BFS:
     #
-    # Depth first search for an island, and its corresponding area, 
+    # Breadth first search for an island, and its corresponding area, 
     # given starting coordinates.
     #
     # Time = O(n + 4*n) => O(n)
