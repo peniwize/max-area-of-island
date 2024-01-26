@@ -66,9 +66,9 @@ class Solution1_BFS {
     std::deque<std::tuple<size_t, size_t>> que_{};
 public:
     /*
-        Depth first search for an island.
+        Breadth first search for an island.
         
-        Time = O(n + 4*n) => O(4*n)
+        Time = O(n + 4*n) => O(n)
                n = number of cells in grid (nodes in graph)
         
         Space = O(n/2) => O(n)
