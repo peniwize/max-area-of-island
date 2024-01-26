@@ -131,7 +131,7 @@ class Solution1_BFS:
     # Depth first search for an island, and its corresponding area, 
     # given starting coordinates.
     #
-    # Time = O(n + 4*n) => O(4*n)
+    # Time = O(n + 4*n) => O(n)
     #        n = number of cells in grid (nodes in graph)
     #
     # Space = O(n)
@@ -172,7 +172,7 @@ class Solution2_BFS:
     # Depth first search for an island, and its corresponding area, 
     # given starting coordinates.
     #
-    # Time = O(n + 4*n) => O(4*n)
+    # Time = O(n + 4*n) => O(n)
     #        n = number of cells in grid (nodes in graph)
     #
     # Space = O(n)
